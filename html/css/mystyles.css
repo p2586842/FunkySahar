@@ -1,0 +1,763 @@
+
+
+#container  /*this is the container in which holds all the information in the body" */
+{
+	margin: 0%;
+	padding: 0%%;
+	border-style: solid;
+	border-width:0.5%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*background colour is pink*/
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0.5%;
+	left: 1%;
+	/*overflow: scroll;*/
+	
+	
+}
+ 
+
+
+#divone h1 /*this is the font controlling the "Contact Us" title on the "Contact Us" page*/
+{
+font-family: verdana, geneva, sans-serif;
+font-size: 150%;
+font-weight: lighter;
+color: #000000; /*font colour is black */
+font-style: normal;
+
+}
+
+#divone p /*this is the font controlling the paragraph on the "Contact Us" page*/
+{
+font-family: verdana, geneva, sans-serif;
+font-size: 80%;
+font-weight: bold;
+color: #000000; /*font colour is black*/
+font-style: normal;
+
+}
+
+p
+{
+font-family: verdana, geneva, sans-serif; 
+font-size: 80%;
+font-weight: bold;
+color:#000000 ; /*font colour is black */
+font-style: normal;
+}
+
+#thead /*website title div*/
+{
+	margin: 0%; /*this section is controlling the size of the websites name "Pearl Bazaar"*/ 
+	padding: 0.5%;
+	border-style: solid;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*background colour is pink*/
+	width: 65%;
+	height: 8%;
+	position: absolute;
+	top: 1%;
+	left: 5	%; 
+
+}
+
+#thead img /*this section of code controls the size of the name of the website and position within the div tag*/
+{
+	
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	width: 20%;
+	height: 20%;
+}
+
+#toparea /*this section controls the div tag for the navigation bar*/
+{
+	margin: 0%;
+	padding: 0%;
+	border-style: solid;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*background colour is pink */
+	width: 60%;
+	height: 5%;
+	position: absolute;
+	top: 15%;
+	left: 5%; /*this is the space between the container and the div tag */
+}
+
+
+#search  /*this is controling the search button on the webpages" */
+{
+	margin: 0%;
+	padding: 0%;
+	border-style: solid;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*background colour is pink */
+	width: 20%;
+	height: 7%;
+	position: absolute;
+	top: 12%;
+	right:86; /*this is the space between the container and the div tag */
+	cursor: pointer;
+}
+
+#search h3 /*this is the font controlling the search button on the webpages*/
+{
+font-family: verdana, geneva, sans-serif;
+font-size: 150%;
+font-weight: bold;
+color: #000000; /*font colour is black */
+font-style: normal;
+
+}
+
+#browse_btn 
+{
+background-color: #fc6969;
+margin: 0%;
+	padding: 14px 28px;
+	border-style: solid;
+	border-width:1%;
+	border: none;
+	width: 8%;
+	height: 4%;
+	position: absolute;
+	top: 2%;
+	right:27%;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+
+ 
+}
+
+/* Darker background on mouse-over */
+#browse_btn:hover 
+{
+background-color: #808080;
+  ;
+}
+
+
+#register   /*this is controling the register/login button on all the webpages */
+{
+	background-color: #fc6969;
+	margin: 0%;
+	padding: 0%;
+	border-style: solid;
+	border-width:1%;
+	border: none;
+	width: 5%;
+	height: 4%;
+	position: absolute;
+	top: 2%;
+	right:19%; /*this is the space between the container and the div tag */
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+}
+/* Darker background on mouse-over */
+#register:hover 
+{
+background-color: #fb6a6a;
+  ;
+}
+
+/*#register h1/*this is the font controlling the regisster/login on the webpages */
+/*{
+font-family: verdana, geneva, sans-serif;
+font-size: 200%;
+font-weight: bold;
+color: #000000; /*font colour is black 
+font-style: normal;
+
+}
+*/
+
+#login   /*this is controling the register/login button on all the webpages */
+{
+	background-color: #fc6969;
+	margin: 0%;
+	padding: 0%;
+	border-style: solid;
+	border-width:1%;
+	border: none;
+	width: 5%;
+	height: 4%;
+	position: absolute;
+	top: 2%;
+	right:11%; /*this is the space between the container and the div tag */
+	color: white;
+	font-size: 16px;
+	cursor: pointer; /*this is the space between the container and the div tag */
+}
+
+
+
+
+
+#image1_page1 /*this is for the first image on the "index page" */
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: solid;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*background colour is light pink */
+	width: 40%;
+	height: 38%;
+	position: absolute;
+	top: 26%;
+	left: 5%; 
+}
+
+
+
+
+
+#image1_page1 img   /*this is controlling the first image div tag */
+{
+position: absolute;
+	top:1%;
+	left:1%;
+	width: 98%;
+	height: 98%;
+}
+
+#image2_page1 /*this is controlling the second image on the home page */
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: solid;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*background colour is pink */
+	width: 48%;
+	height: 40%;
+	position: absolute;
+	top: 25%;
+	left: 48%; 
+}
+
+
+
+#image2_page1 img  /*this is controlling the second image  div tag on the home page */
+{
+position: absolute;
+	top:1%;
+	left:1%;
+	width: 98%;
+	height: 98%;
+}
+
+#video /*this is controling the video in the div tag on the home page */
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: solid;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*background colour is pink */
+	width: 25%;
+	height: 25%;
+	position: absolute;
+	top: 68%;
+	left: 62%; 
+}
+
+#video1 img  /*this is controlling the video div tag on the home page */ 
+{
+position: absolute;
+	top:1%;
+	left:1%;
+	width: 98%;
+	height: 98%;
+}
+
+#image3_page1 /*this is controling the third picture in the div tag on the home page */
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: solid;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*background colour is pink */
+	width: 38%;
+	height: 28%;
+	position: absolute;
+	top: 68%;
+	left: 6%; 
+}
+
+
+
+#image3_page1 img   /*this is controlling the third image  div tag on the home page */
+{
+position: absolute;
+	top:1%;
+	left:1%;
+	width: 98%;
+	height: 98%;
+}
+
+
+
+#socialnav /*this section is controlling the social media div tag at the bottom of the home page */
+{
+	margin: 0%;
+	padding: 0%;
+	border-style: solid;
+	border-width:0%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*background colour is pink */
+	width: 7%;
+	height: 5%;
+	position: absolute;
+	bottom: 2%;
+	right: 4%;  
+}
+
+#copyright /*this section is controlling the copyright div tag at the bottom of the home page */
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-styl	e: solid;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*background colour is pink */
+	width: 99%;
+	height: 5%;
+	position: absolute;
+	top: 99.5%	; /*this measurement is between the container and the copyright div from the top of the home page */
+	right: 0%; 
+	
+}
+
+#vid_one /*this is the code controlling the div tag for the first image on the "latest designs page" */
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: none;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*background colour is white */
+	width: 18%;
+	height: 40%;
+	position: absolute;
+	top: 39%;
+	left: 3.5%; 	
+
+}
+
+#vid_one img /*this code is controlling the size of the first image within the div tag on the "latest designs" */
+{
+	position: absolute;
+	top:1%;
+	left:1%;
+	width: 98%;
+	height: 98%;
+}
+#Vid_two /*this code is controlling the first price div tag on the "latest designs page" */ 
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: none;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*background colour is white */
+	width: 18%;
+	height: 50%;
+	position: absolute;
+	top: 69%;
+	left: 3.5%; 
+}
+#vid_two img /*this code is controlling the size of the first image within the div tag on the "latest designs" */
+{
+	position: absolute;
+	top:1%;
+	left:1%;
+	width: 98%;
+	height: 98%;
+}
+#vid_three /*this code is controlling the div tag for the second image on the "latest designs" */
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: none;
+	border-width:1%;
+	border-color: #FFE5E6; /*border is pink*/
+	background: #FFE5E6; /*background colour is pink */
+	width: 18%;
+	height: 50%;
+	position: absolute;
+	top: 39%;
+	left: 27.5%; 	
+}
+
+#vid_three img /*this code is controlling the size of the first image within the div tag on the "latest designs" */
+{
+	position: absolute;
+	top:1%;
+	left:1%;
+	width: 98%;
+	height: 98%;
+	
+}
+#vid_four /*this code is controlling the second price div tag on the "latest designs" */ 
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: none;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*background colour is pink */
+	width: 18%;
+	height: 50%;
+	position: absolute;
+	top: 69%;
+	left: 27.5%; 
+}
+
+#vid_four img /*this code is controlling the size of the first image within the div tag on the "latest designs" */
+{
+	position: absolute;
+	top:1%;
+	left:1%;
+	width: 98%;
+	height: 98%;
+}
+
+#vid_five /*this code is controlling the div tag for the third image on the "latest designs" */
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: none;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*background colour is non-visible */
+	width: 18%;
+	height: 50%;
+	position: absolute;
+	top: 39%;
+	left: 51.5%; 	
+}
+#vid_five img /*this code is controlling the size of the third image so it fits within the div tag on the latest page */
+{
+	position: absolute;
+	top:1%;
+	left:1%;
+	width: 98%;
+	height: 98%;
+}
+
+#vid_six /*this code is controlling the third price div tag on the "latest designs" */ 
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: none;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*background colour is pink */
+	width: 18%;
+	height: 50%;
+	position: absolute;
+	top: 69%; /*this measurement is between the div tag and the container from the top side */
+	left: 51.5%; 
+}
+
+#vid_six img /*this code is controlling the size of the first image within the div tag on the "latest designs" */
+{
+	position: absolute;
+	top:1%;
+	left:1%;
+	width: 98%;
+	height: 98%;
+}
+
+
+#vid_seven /*this code is controlling the third price div tag on the "latest designs" */ 
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: none;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*background colour is pink */
+	width: 18%;
+	height: 50%;
+	position: absolute;
+	top: 39%; /*this measurement is between the div tag and the container from the top side */
+	left: 75%; 
+}
+
+#vid_seven img /*this code is controlling the size of the first image within the div tag on the "latest designs" */
+{
+	position: absolute;
+	top:1%;
+	left:1%;
+	width: 98%;
+	height: 98%;
+}
+
+
+#vid_eight /*this code is controlling the third price div tag on the "latest designs" */ 
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: none;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*background colour is pink */
+	width: 18%;
+	height: 50%;
+	position: absolute;
+	top: 69%; /*this measurement is between the div tag and the container from the top side */
+	left: 75%; 
+}
+
+#vid_eight img /*this code is controlling the size of the first image within the div tag on the "latest designs" */
+{
+	position: absolute;
+	top:1%;
+	left:1%;
+	width: 98%;
+	height: 98%;
+}
+
+#exclusive /*this code is controlling the bottom div tag for the exclusive text on the "latest designs" */
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: solid;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*background colour is pink */
+	width: 60%;
+	height: 3%;
+	position: absolute;
+	top: 25%;
+	left: 18%; 
+}
+
+#aboutusone /*this piece of code is for the div tag which has the
+content in on the "About Us" webpage */
+{
+	margin: 0%;
+	padding: 0%;
+	border-style: solid;
+	border-width:1%;
+	border-color: #FFE5E6;	
+	background: #FFE5E6; /*background colour is pink */
+	width: 96%;
+	height: 63%;
+	position: absolute;
+	top: 33%;
+	left: 5%; 
+}
+#divone /*this code is for the div tag which has the contact us
+information on the "Contact Us" webpage */ 
+{
+	margin: 0%;
+	padding: 0%;
+	border-style: solid;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*background colour is pink */
+	width: 96%;
+	height: 20%;
+	position: absolute;
+	top: 28%;
+	left: 5%; 
+}
+#divtwo /*this code is for the the div tag which has the address 
+information in it on the "Contact Us" webpage */
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: solid;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6;/*background colour is white */
+	width: 30%;
+	height: 40%;
+	position: absolute;
+	top: 50%;
+	left: 5%; 
+}
+#divthree /*this code is for the div tag which has the map in it on the "Contact Us" webpage */
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: solid;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: transparant; /*background colour is pink */
+	width: 30%;
+	height: 42%;
+	position: absolute;
+	top: 47%;
+	left: 35%; 
+}
+
+#divlogin
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: solid;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: transparant; /*background colour is pink */
+	width: 30%;
+	height: 60%;
+	position: absolute;
+	top: 56%;
+	right: 33.5%; 
+}
+
+
+#divfour /*this code is for the div tag which has the form in it on the "Register" webpage */
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: solid;
+	border-width:1%;
+	border-color: black;
+	background: transparant; /*background colour is pink */
+	width: 25%;
+	height: 52%;
+	position: absolute;
+	top: 35%;
+	left: 69%; 
+	overflow: scroll;
+	
+}
+
+#library_form
+{
+	margin: 0%;
+	padding: 0%;
+	border-style: solid;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*background colour is pink */
+	width: 96%;
+	height: 20%;
+	position: absolute;
+	top: 24%;
+	left: 5%; 	
+	
+}
+
+#dwn_load_description /*this div tag is at the bottom of the page with the offers description content in it on the "Offers" webpage */
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: solid;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*background colour is pink */
+	width: 70%;
+	height: 10%;
+	position: absolute;
+	top: 24%;
+	left: 25%; 	
+
+}
+
+#dloadfile /*this div tag is at the bottom of the page with the offers description content in it on the "Offers" webpage */
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: solid;
+	border-width:1%;
+	border-color: white; 
+	background: none;
+	width: 10%;
+	height: 67%;
+	position: absolute;	
+	top: 5%;
+	right: 1%; 	
+
+}
+
+#dloadfile img
+{
+	position: absolute;
+	top:1%;
+	left:1%;
+	width: 98%;
+	height: 98%;
+}
+
+#disclaimer          /*this div tag is for the Legal requirements inforamtion on the page */
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: solid;
+	border-width:1%;
+	border-color: #FFE5E6; /*Pink*/
+	background:#FFE5E6;
+	width: 85%;
+	height: 40%;
+	position: absolute;	
+	top: 27%;
+	left: 5%; 
+
+}
+
+#regulation_links   /*div tag for the regulations link on the lagal requirements page*/
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: solid;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*pink*/
+	width: 35%;
+	height: 22%;
+	position: absolute;	
+	top: 72%;
+	left: 5%; 
+}
+#company_info   /*div tag to hold the information abou the company*/
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: solid;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6;
+	width: 40%;
+	height: 22%;
+	position: absolute;	
+	top: 72%;
+	left: 42%; 
+
+}
+
+/*#emptyS
+{
+	margin: 0%;
+	padding: 0.5%;
+	border-style: solid;
+	border-width:1%;
+	border-color: #FFE5E6;
+	background: #FFE5E6; /*background colour is white 
+	width: 96.5%;
+	height: 17%;
+	position: absolute;
+	top: 98.5%;
+	left: 0.5%; */
+	
+	
+
+
+
+
+

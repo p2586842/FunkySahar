@@ -1,0 +1,83 @@
+
+
+ul.topnav 
+	{
+		list-style-type: none;/* type in none so that there is no bullet*/
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #808080;/* (pink)this is the background colour of the navigation bar. */
+	}
+
+ul.topnav li 
+
+	{
+		float: left; /* this is so that the bar floats to left*/
+	}
+
+ul.topnav li a 
+	{
+		display: block; /* this displays the text as a block*/
+		text-align: center;
+		padding: 10px 10px;
+		text-decoration: None; /* type in none to remove the underline and underline to have one*/
+		
+		/* below is the coding to declare the font used on the navigation bar*/
+		color:#000000; /* this is the colour of the text. You should be using hex code to ensure the correct colour*/
+		font-family: Verdana,Geneva,sans-serif;
+		font-style: normal;
+		font-size: 1.3vw;
+		font-weight: bold;
+	 
+	}
+
+ul.topnav li a:hover:not(.active) /* this is the coding that appears when the cursor is hovering over the text for the link*/
+
+	{
+		background-color: transparant;
+			/* below is the coding to declare the font used on the navigation bar*/
+		color: #000000; /* this is the colour of the text. */
+		font-family: Verdana,Geneva,sans-serif;
+		font-style: normal;
+		font-size:  1.6vw;
+		font-weight: bold;
+	}
+
+ul.topnav li a. 
+	{
+		
+		background-color: #000000; /*this is used to highlight the active link*/
+					/* below is the coding to declare the font*/
+		color: #000000; /* this is the colour of the text. */
+		font-family: Verdana,Geneva,sans-serif;
+		font-style: normal;
+		font-size:1.5vw;
+		font-weight: bold;
+		
+	}
+
+ul.topnav li.right 
+	{ /* this is how it will look on the right of the screen and when the screen is smaller */
+	
+	float: right;
+	background-color:;#4B7750;
+	color:#000000;
+	font-family: Verdana,Geneva,sans-serif;
+	font-size:2vw;
+	font-weight: bold;
+	
+	
+	
+	}
+
+@media screen and (max-width: 800px) /* this is what happens when the screen size changes to 800px */
+{
+    ul.topnav li.right, 
+    ul.topnav li 
+	
+	{
+	float: none; /*this stops the text floating so goes underneath each other. */
+	}
+	
+}
+

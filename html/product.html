@@ -1,0 +1,206 @@
+<HTML>
+<HEAD>
+<link href="../css/mystyles.css" rel="stylesheet" type="text/css" /> <!--this is a link to the css file -->
+<link rel="stylesheet" type="text/css" href="../css/mystylesnav.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="../js/font.js"></script>
+	
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+#thead img  /* this piece of code is controlling the size of the image within the website name div tag */
+	{
+	width: 80%;
+	height: 80%;
+	}
+
+	
+
+	#socialnav img /*this code is to control the size of the social navigations icons in the div tag on the index page */
+	{
+	width: 30%;
+	height: 100%;
+	}
+	
+	#dloadfile img <!--this code controls the image of the download icon and the size of it in the for more linked related for Car VW  -->
+	{
+	width: 80%;
+	height: 80%;
+	postition: absolute;
+	top:0;
+	left:0;
+	}
+	
+	#browse_btn 
+	{
+  background-color: #fc6969;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+#browse_btn :hover {
+  background-color: 
+}
+	
+	#register 
+	{
+  background-color: #fc7969;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  center;
+}
+
+/* Darker background on mouse-over */
+#register:hover {
+  background-color: 
+}
+
+#login
+{
+  background-color: #fc6969;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  center;
+}
+
+/* Darker background on mouse-over */
+#login:hover {
+  background-color: 
+}
+
+	
+	
+					
+					
+		
+			</style>
+		</HEAD>
+		<BODY>
+			<div id="container">
+			
+			
+			
+			
+			<div id="thead">
+			<img src="../img/Vw_title.png" alt="title"> <!--this is the code for the image of the website name inserted in the
+			div tag at the top of each page -->
+			</div>
+			
+			<div id="toparea"> <!--these are hyperlinks for each headind in the navigation bar navigating around the website-->
+				<ul class="topnav">
+					<li><a  href="index.html">Home</a></li>
+					<li><a href="aboutus.html">About Us</a></li>
+					<li><a href="product.html">Product</a></li>
+					
+					<li><a href="legal_requirements.html">Legal Requirement</a></li>
+					
+					
+				</ul>
+			</div>
+
+			
+			<div id="search">
+
+<form class="example" action="action_page.php">  <!--this is the code for the search button-->
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form> 
+
+</div> 
+
+<div id= "browse_btn">
+<button class="btn"><i class="fa fa-folder"></i> Browse Library</button>
+
+
+</div>
+
+<div id="register">
+
+<a  href="../php/register_code.php">
+
+	<button type="button" onclick="../php/register_code.php"><center>Register</center></button>
+
+</a>
+				
+</div>
+
+<div id="login">
+
+<a  href="../php/login_code.php">
+
+	<button type="button" onclick="../php/login_code.php"><center>Login</center></button>
+
+</a> <!--this is the code for the login-->
+
+</div>
+
+<div id="library_form">
+<form enctype="multipart/form-data" action="upload.php" method="post">
+<h3>Please select an VW Scirocco Image:</h3>
+<input name="filename" type="file" size="55">
+<br>
+<input type="submit" value="Upload">
+</form>
+
+<h2>Purchase Items</h2
+<form name="PurchaseStock" action="Query3.php" onsubmit="return validateForm(this);" method="post">
+<h3>Item Code</h3> <input type="text" name="ItemCode" size="6">
+<input type="submit" value="Submit">
+</form><br>
+<h2> Delete Items </h2>
+<form name="DeleteStock" action="Query2.php" onsubmit="return validateForm(this);" method="post">
+<h3>Item Code</h3> <input type="text" name="ItemCode" size="6">
+<input type="submit" value="Submit">
+</form>
+<h2>Search Stock Items</h2>
+<form name="QueryStock" action="Query.php" onsubmit="return validateForm(this);" method="post">
+<h3>Item Code</h3> <input type="text" name="ItemCode" size="6">
+<input type="submit" value="Submit">
+</form>
+
+</div>
+
+
+<div id="dwn_load_description"> <!--this div tag contains the text about offers available on the outfits displayed on the website --> 
+<h4><b><center>Library full of amazing soothing, charming, energising songs to suit your mood. Songs can be purchased according<br>
+to own preference. 
+Notes can be downloaded by clicking on the link which can be followed when playing the songs--></b></center></h4>
+
+
+ 
+
+<div id="dloadfile">
+
+<a href = "https://www.onlinepianist.com/sheet-music" download > <img src ="../img/download-image.jpg"> </a> 
+<!--this is the download image which appears on the "Offers" page so you can click to
+ download an offers leaflet from a word document -->
+ </div>
+ 
+ </div>
+ 
+ <div id="socialnav"> <!--this div tag is for social navigations to external sites-->
+	<a href="https://www.facebook.com/Piano-Tutorial-Easy-648336148605372/"><img src="../img/facebook-icon.png" alt="social"></a> <!--hyperlink to Facebook -->
+	<a href="https://twitter.com/search?q=piano%20tutorial&src=typed_query"><img src="../img/twitter-icon.png" alt="social"></a> <!--hyperlink to Twitter-->
+	<a href="https://myaccount.google.com/u/1/?tab=kk&pageId=none"><img src="../img/google-plus-icon.png" alt="social"></a> <!--hyperlink to Google+ -->
+</div>
+ 
+
+ <div id="copyright"> <!--this is the div tag for the copyright information within on the bottom of the page-->
+	<center>All rights reserved 2020-� Piano Tutorial</center>
+	</div>
+	
+	
+
+	</div>
+
+</BODY>	
+</HTML>
